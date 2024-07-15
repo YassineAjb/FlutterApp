@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text(
             "LeTAff",
             style: TextStyle(
-              color: Color.fromARGB(255, 176, 83, 29),
+              color: Color.fromARGB(255, 210, 196, 186),
               letterSpacing: 2.0,
               fontSize: 28.0, 
               fontWeight: FontWeight.bold,
@@ -51,8 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              width: 300, // Specify the width of the container
-              height: 300, // Specify the height of the container
+              width: 400, // Specify the width of the container
+              height: 400, // Specify the height of the container
               padding: const EdgeInsets.fromLTRB(1, 5, 1, 5),
               decoration: const BoxDecoration(
                 color: Color.fromARGB(255, 168, 62, 0), // Background color of the container
