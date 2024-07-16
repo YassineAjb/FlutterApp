@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text(
             "LeTAff",
             style: TextStyle(
-              color: Color.fromARGB(255, 210, 196, 186),
+              color: Color.fromARGB(255, 147, 61, 0),
               letterSpacing: 2.0,
               fontSize: 28.0, 
               fontWeight: FontWeight.bold,
@@ -48,8 +48,12 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start ,
           children: [
+            CircleAvatar(
+              backgroundImage: AssetImage('images/img2.jpeg'),
+            ),
+            SizedBox(height: 10), // Add some space between the image and text
             Container(
               width: 400, // Specify the width of the container
               height: 400, // Specify the height of the container
